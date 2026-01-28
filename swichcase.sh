@@ -19,7 +19,7 @@ case $choice in
     pwd
     ;;
 4)
-    echo ""Exiting program"
+    echo "Exiting program"
     exit 0
     ;;
 *)
