@@ -23,6 +23,6 @@ case $choice in
     exit 0
     ;;
 *)
-    echo "Invalid choice: $choice please enter number between 1 and 4
+    echo "Invalid choice: $choice please enter number between 1 and 4"
     ;;
 esac
