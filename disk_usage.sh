@@ -7,7 +7,7 @@ current_usage=$(df -h / | awk 'NR==2 {print$5}'| cut -d '%' -f1)
 
 echo "current usage is: $current_usage"
 
-if [ $current_usage -ge $threshold_critical ; then
+if [ $current_usage -ge $threshold_critical ]; then
     echo "Disk usage is critical ($current_usage%)" please take immediate action
 
 elif [ $current_usage -ge $threshold_warning ]; then
