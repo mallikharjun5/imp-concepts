@@ -4,7 +4,7 @@ echo "Enter names (type 'exit' to quit):"
 while :
 do
     read -p "Name:" name
-    if [ "$Name" = "exit"]; then
+    if [ "$Name" = "exit" ]; then
     break
     fi
     echo "Hello ---> $name!"
