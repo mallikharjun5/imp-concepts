@@ -9,4 +9,4 @@ do
     fi
     echo "Hello ---> $name!"
 done
-    echo "you are exited"
+    echo "you are exited" 
