@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function () {
+function() {
     echo "mallikharjun"
 }
 date
