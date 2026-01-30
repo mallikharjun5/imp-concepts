@@ -14,7 +14,7 @@ check_even_odd() {
 for (( i=1; i<=5; i++ ))
 {
     read -p "enter a number:" num
-    if [ $Num -gt -1]; then
+    if [ $Num -gt -1 ]; then
     check_even_odd num
     else
         echo "please enter valid input"
