@@ -1,8 +1,9 @@
 #!/bin/bash
 
-function() {
+myfunction() {
     echo "mallikharjun"
 }
 date
 pwd
-echo "all the best:" function
+echo "all the best:"
+myfunction
